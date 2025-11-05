@@ -1,16 +1,60 @@
-# React + Vite
+# 🧠 Dynamic Todo App (React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, minimal, and fully functional **Dynamic Todo App** built using **React.js** and **Tailwind CSS**.  
+It allows you to **add**, **remove**, **mark as done**, and **persist tasks** using **localStorage**, so your todos stay safe even after refreshing the page.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
 
-## React Compiler
+### App Interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Dynamic Todo App Screenshot](./src/assets/screencapture-localhost-5173-2025-11-05-10_12_02.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Dynamic Todo App Screenshot](./src/assets/screencapture-localhost-5173-2025-11-05-10_13_30.png)
+
+---
+
+## 🚀 Features
+
+✅ **Add New Tasks** – Quickly add new todos to your list.  
+✅ **Mark as Done / Undo** – Toggle completion of any task.  
+✅ **Remove Tasks** – Delete any task instantly.  
+✅ **Clear All Button** – Remove all tasks in one click.  
+✅ **Persistent Data** – Your tasks are saved using `localStorage`.  
+✅ **Time Display** – Each task shows when it was created.  
+✅ **Responsive UI** – Styled beautifully with Tailwind CSS.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – UI library for building components
+- **Tailwind CSS** – For responsive and modern styling
+- **JavaScript (ES6+)** – Logic and interactivity
+- **Custom Hook** – `useLocalStorage` for persistent state
+
+---
+
+## 🧩 Folder Structure
+
+src/
+├── components/
+│ ├── TodoInput.jsx
+│ ├── TodoList.jsx
+│ └── TodoItem.jsx
+├── hooks/
+│ └── useLocalStorage.js
+├── App.jsx
+└── index.js
+
+---
+
+## 🧑‍💻 Author
+
+- Hammad Ashraf (Hami)
+- 🎯 Future Full Stack MERN Developer
+
+---
